@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+build/
+outputs/
+*.o
+*.so
+*.out
+time_complexity.txt
