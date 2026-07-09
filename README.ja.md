@@ -1,52 +1,52 @@
-# 🥇 RDEx Series for IEEE CEC 2025 Competitions
+# 🥇 IEEE CEC 2025 コンペティション RDEx シリーズ
 
 ![IEEE CEC 2025](https://img.shields.io/badge/IEEE%20CEC%202025-Rank%201%20U--score-gold)
 ![Series](https://img.shields.io/badge/RDEx-Series-blue)
 ![Tracks](https://img.shields.io/badge/Tracks-SOP%20%7C%20CSOP%20%7C%20MOP%20%7C%20CMOP-green)
 
 <p align="center">
-  <strong>English</strong> |
+  <a href="README.md">English</a> |
   <a href="README.zh-CN.md">中文</a> |
-  <a href="README.ja.md">日本語</a>
+  <strong>日本語</strong>
 </p>
 
-**RDEx is the CEC 2025 Rank 1 U-score series for four numerical optimization competition tracks.**
+**RDEx は、CEC 2025 の 4 つの数値最適化コンペティショントラックにおける Rank 1 U-score シリーズです。**
 
-This repository provides the clean open-source RDEx competition packages for bound-constrained single-objective, constrained single-objective, multi-objective, and constrained multi-objective optimization.
+本リポジトリは、有界制約単目的最適化、制約付き単目的最適化、多目的最適化、制約付き多目的最適化に対応する、整理済みのオープンソース RDEx コンペティションパッケージを提供します。
 
-## 🥇 Champion Series
+## 🥇 優勝シリーズ
 
-| Result | Track | Package | Language | Paper |
+| 結果 | トラック | パッケージ | 言語 | 論文 |
 | --- | --- | --- | --- | --- |
 | 🥇 Rank 1 U-score (total: 81229.5) | CEC 2025 BC-SOPs | [RDEx_SOP](./RDEx_SOP) | C++ + Python | [arXiv:2603.27089](https://arxiv.org/abs/2603.27089) |
 | 🥇 Rank 1 U-score (total: 53680.5) | CEC 2025 BC-CSOPs | [RDEx_CSOP](./RDEx_CSOP) | C++ + Python | [arXiv:2603.27090](https://arxiv.org/abs/2603.27090) |
 | 🥇 Rank 1 U-score (total: 36343.5) | CEC 2025 BC-MOPs | [RDEx_MOP](./RDEx_MOP) | MATLAB + Python | [arXiv:2603.27092](https://arxiv.org/abs/2603.27092) |
 | 🥇 Rank 1 U-score (total: 58456.0) | CEC 2025 BC-CMOPs | [RDEx_CMOP](./RDEx_CMOP) | MATLAB + Python | [arXiv:2604.03708](https://arxiv.org/abs/2604.03708) |
 
-## 🔗 RDE Research Line
+## 🔗 RDE 研究ライン
 
-| Year | Result | Track | Repository | Paper |
+| 年 | 結果 | トラック | リポジトリ | 論文 |
 | --- | --- | --- | --- | --- |
 | 2024 | 🥈 Runner-Up Award | IEEE CEC 2024 BC-SOPs | [RDE](https://github.com/SichenTao/IEEE-WCCI-CEC-2024-Competition-RDE) | [arXiv:2404.16280](https://arxiv.org/abs/2404.16280) |
-| 2025 | 🥇 Rank 1 U-score | IEEE CEC 2025 RDEx Series | [RDEx Series](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series) | [SOP](https://arxiv.org/abs/2603.27089), [CSOP](https://arxiv.org/abs/2603.27090), [MOP](https://arxiv.org/abs/2603.27092), [CMOP](https://arxiv.org/abs/2604.03708) |
-| 2026 | 🏆 Champion / Rank 1 | IEEE WCCI 2026 / IEEE CEC 2026 RDE26 Series | [SOP](https://github.com/SichenTao/RDE26-SOP), [CSOP](https://github.com/SichenTao/RDE26-CSOP), [MOP](https://github.com/SichenTao/RDE26-MOP), [CMOP](https://github.com/SichenTao/RDE26-CMOP) | Competition release |
+| 2025 | 🥇 Rank 1 U-score | IEEE CEC 2025 RDEx シリーズ | [RDEx Series](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series) | [SOP](https://arxiv.org/abs/2603.27089), [CSOP](https://arxiv.org/abs/2603.27090), [MOP](https://arxiv.org/abs/2603.27092), [CMOP](https://arxiv.org/abs/2604.03708) |
+| 2026 | 🏆 優勝 / 第 1 位 | IEEE WCCI 2026 / IEEE CEC 2026 RDE26 シリーズ | [SOP](https://github.com/SichenTao/RDE26-SOP), [CSOP](https://github.com/SichenTao/RDE26-CSOP), [MOP](https://github.com/SichenTao/RDE26-MOP), [CMOP](https://github.com/SichenTao/RDE26-CMOP) | コンペティション公開版 |
 
-## Repository Layout
+## リポジトリ構成
 
-| Path | Description |
+| パス | 説明 |
 | --- | --- |
-| `RDEx_SOP/` | Bound-constrained single-objective optimization package |
-| `RDEx_CSOP/` | Bound-constrained constrained single-objective optimization package |
-| `RDEx_MOP/` | Bound-constrained multi-objective optimization package |
-| `RDEx_CMOP/` | Bound-constrained constrained multi-objective optimization package |
+| `RDEx_SOP/` | 有界制約単目的最適化パッケージ |
+| `RDEx_CSOP/` | 有界制約付きの制約付き単目的最適化パッケージ |
+| `RDEx_MOP/` | 有界制約多目的最適化パッケージ |
+| `RDEx_CMOP/` | 有界制約付きの制約付き多目的最適化パッケージ |
 
-Each package contains the final algorithm source, benchmark materials, a track-specific entry point, and a dedicated README.
+各パッケージには、最終アルゴリズムのソースコード、ベンチマーク資料、トラック専用のエントリポイント、専用 README が含まれています。
 
-## Team
+## チーム
 
 Sichen Tao, Yifei Yang, Ruihan Zhao, Kaiyu Wang, Sicheng Liu, and Shangce Gao.
 
-## Citation
+## 引用
 
 ```bibtex
 @misc{tao2024efficient,
