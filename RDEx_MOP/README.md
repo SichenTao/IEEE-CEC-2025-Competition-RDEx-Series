@@ -4,6 +4,12 @@
 ![Track](https://img.shields.io/badge/Track-BC--MOPs-green)
 ![Language](https://img.shields.io/badge/Language-MATLAB-lightgrey)
 
+<p align="center">
+  <strong>English</strong> |
+  <a href="README.zh-CN.md">中文</a> |
+  <a href="README.ja.md">日本語</a>
+</p>
+
 **RDEx-MOP is the CEC 2025 Rank 1 U-score entry for bound-constrained multi-objective optimization in the RDEx research line.**
 
 This repository provides a clean open-source package in the same layout style as the RDE26 competition repositories.

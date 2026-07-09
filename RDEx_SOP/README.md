@@ -4,6 +4,12 @@
 ![Track](https://img.shields.io/badge/Track-BC--SOPs-green)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%2B%20Python-lightgrey)
 
+<p align="center">
+  <strong>English</strong> |
+  <a href="README.zh-CN.md">中文</a> |
+  <a href="README.ja.md">日本語</a>
+</p>
+
 **RDEx-SOP is the CEC 2025 Rank 1 U-score entry for bound-constrained single-objective optimization in the RDEx research line.**
 
 This repository provides a clean open-source package in the same layout style as the RDE26 competition repositories.
